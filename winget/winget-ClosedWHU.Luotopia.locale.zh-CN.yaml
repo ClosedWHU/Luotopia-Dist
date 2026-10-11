@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.6.0.schema.json
+PackageIdentifier: ClosedWHU.Luotopia
+PackageVersion: 1.1.0
+PackageLocale: zh-CN
+Publisher: ClosedWHU Team
+PublisherUrl: https://github.com/ClosedWHU
+PublisherSupportUrl: https://github.com/ClosedWHU/Luotopia/issues
+Author: ClosedWHU Team
+PackageName: Luotopia
+PackageUrl: https://www.whu.sb
+License: MIT
+Copyright: Copyright (C) ClosedWHU Team
+ShortDescription: 武汉大学一站式数字校园客户端
+Description: Luotopia（珞家）整合课表、空闲教室、场馆预约、天气、校车等校园服务，支持多端。
+Tags:
+  - whu
+  - 武汉大学
+  - campus
+  - education
+ReleaseNotesUrl: https://github.com/ClosedWHU/Luotopia/releases/tag/v1.1.0+16
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0
