@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
 # Fill placeholders from CI, then open a PR to microsoft/winget-pkgs.
 PackageIdentifier: ClosedWHU.Luotopia
-PackageVersion: 1.1.0
+PackageVersion: 1.2.0
 Platform:
   - Windows.Desktop
 MinimumOSVersion: 10.0.17763.0
@@ -14,11 +14,11 @@ Scope: user
 InstallModes:
   - portable
 UpgradeBehavior: install
-ReleaseDate: 2026-10-11
+ReleaseDate: 2026-10-19
 Installers:
   - Architecture: x64
-    InstallerUrl: https://github.com/ClosedWHU/Luotopia/releases/download/v1.1.0+16/luotopia-1.1.0-16-windows-x64.zip
-    InstallerSha256: F14A1BDC699C0AD83FE21CDF93178F2EA8A39FC7F21226141711D2696F5E1B3C
+    InstallerUrl: https://github.com/ClosedWHU/Luotopia/releases/download/v1.2.0+17/luotopia-1.2.0-17-windows-x64.zip
+    InstallerSha256: 00B9369D9B89310456CEBFCBA28B86A43BC08505AC8D8B1982AEBE0C153B6D63
     InstallerSwitches:
       Custom: ""
 ManifestType: installer

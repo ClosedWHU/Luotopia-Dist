@@ -5,16 +5,16 @@
 
   outputs = { self, nixpkgs }:
     let
-      version = "1.1.0+16";
+      version = "1.2.0+17";
       supportedSystems = [ "x86_64-linux" "aarch64-linux" ];
       sources = {
         x86_64-linux = {
-          url = "https://github.com/ClosedWHU/Luotopia/releases/download/v1.1.0+16/luotopia-1.1.0-16-linux-x64.tar.gz";
-          sha256 = "sha256-tTWH0CxSOpC1nl5z5Mts9e6Zessl1ziuAagGSJUcfOw=";
+          url = "https://github.com/ClosedWHU/Luotopia/releases/download/v1.2.0+17/luotopia-1.2.0-17-linux-x64.tar.gz";
+          sha256 = "sha256-GSI3MBxlbme5AZ0T5fKe3/vcMIWCqOwjM3Fgypef3wc=";
         };
         aarch64-linux = {
-          url = "https://github.com/ClosedWHU/Luotopia/releases/download/v1.1.0+16/luotopia-1.1.0-16-linux-arm64.tar.gz";
-          sha256 = "sha256-C51wGJYGXC1Pvxz8dvON8RohAjnlODyZEnQIqhUsC6Y=";
+          url = "https://github.com/ClosedWHU/Luotopia/releases/download/v1.2.0+17/luotopia-1.2.0-17-linux-arm64.tar.gz";
+          sha256 = "sha256-xhgE3nmPpgyf5nwHTrevCugk+sYbQ4QOjsGwOQjm89c=";
         };
       };
       forAllSystems = f: nixpkgs.lib.genAttrs supportedSystems (system: f nixpkgs.legacyPackages.${system});
