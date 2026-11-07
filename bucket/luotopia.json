@@ -1,17 +1,17 @@
 {
-  "version": "1.2.0+17",
+  "version": "1.3.0+19",
   "description": "Luotopia (珞家) — 武汉大学一站式数字校园客户端",
   "homepage": "https://www.whu.sb",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/ClosedWHU/Luotopia/releases/download/v1.2.0+17/luotopia-1.2.0-17-windows-x64.zip",
-      "hash": "00b9369d9b89310456cebfcba28b86a43bc08505ac8d8b1982aebe0c153b6d63",
+      "url": "https://github.com/ClosedWHU/Luotopia/releases/download/v1.3.0+19/luotopia-1.3.0-19-windows-x64.zip",
+      "hash": "3755558d6979b87fa2b6b0d76c3c623b3f0db559399c6d43a3ea74d3a6e63b76",
       "extract_dir": "luotopia"
     },
     "arm64": {
-      "url": "https://github.com/ClosedWHU/Luotopia/releases/download/v1.2.0+17/luotopia-1.2.0-17-windows-arm64.zip",
-      "hash": "236bd07502ec599a09848a3fc6f1025535b2094ea5617416873c1fd5befb6ce6",
+      "url": "https://github.com/ClosedWHU/Luotopia/releases/download/v1.3.0+19/luotopia-1.3.0-19-windows-arm64.zip",
+      "hash": "5b378f8b86ee4645345125c313da46076576604142effd13407b0a934fb871bd",
       "extract_dir": "luotopia"
     }
   },
